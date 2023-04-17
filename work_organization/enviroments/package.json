@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladimir-Study/js_dept.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Vladimir Pavlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladimir-Study/js_dept/issues"
+  },
+  "homepage": "https://github.com/Vladimir-Study/js_dept#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1"
+  }
+}
